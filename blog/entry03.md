@@ -31,3 +31,33 @@ What i learned from this is to always make sure your for loop is correct or it c
 Im going to look more into the vidcode channel and documents they have explaining stuff and see what else they have to offer that i can learn or stuff that they have to offer that other platforms dont have to offer. Im also hoping that vidcode improves my javascript knowledge.
 
 
+
+
+
+"My code"
+*movie = image();
+movie.source = "map.png";
+movie.color = "#00EAFF"
+
+var character = text("🧍🏻‍♂️");
+
+var mapW= 310;
+var mapH = 267;
+
+repeat(function() {
+    character.x = mouse.x
+    character.y = mouse.y
+}, 1);
+
+var npcs = ["!🧙‍♂️!","👷‍♂️","$🤴$","?🤰?"]
+
+for (var i = 0; i < npcs.length; i++) {
+  var currentNpc = text(npcs[i], Math.random() * movie.width , Math.random() * movie.height);
+  currentNpc.size = 25;
+  currentNpc.color = "red";
+}*
+
+https://www.vidcode.com/share/gbGCZbMQ0W
+
+link to the code
+
